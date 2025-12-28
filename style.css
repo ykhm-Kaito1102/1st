@@ -117,3 +117,19 @@ position:absolute;
 top:7600px;
 }
 
+@media (max-width: 480px) {
+  body {
+    font-size: 14px;
+  }
+  .container {
+    padding: 10px;
+  }
+    .img {
+  max-width: 100%;  /* 画面幅に収まる */
+  height: auto;     /* 縦横比を維持 */
+  display: block;
+  margin: 10px auto;
+  border-radius: 10px;
+}
+}
+
