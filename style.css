@@ -120,6 +120,7 @@ top:7600px;
 @media (max-width: 480px) {
   body {
     font-size: 14px;
+      width:90%;
   }
   .container {
     padding: 10px;
@@ -132,6 +133,14 @@ top:7600px;
   margin: 10px auto;
   border-radius: 10px;
 }
+
+    .top-wrapper{
+ height:200px;
+    background-image:url(かわうそ.jpg); 
+    background-size:cover;
+    position:relative;
 }
+}
+
 
 
