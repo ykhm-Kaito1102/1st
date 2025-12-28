@@ -123,6 +123,7 @@ top:7600px;
   }
   .container {
     padding: 10px;
+       max-width: 100%;
   }
     .img {
   max-width: 100%;  /* 画面幅に収まる */
@@ -132,4 +133,5 @@ top:7600px;
   border-radius: 10px;
 }
 }
+
 
