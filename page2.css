@@ -1,0 +1,41 @@
+
+
+.batta{
+    height:900px;
+    width:700px;
+}
+.name{
+    display: block;
+    text-align: center;
+    margin:0 auto;
+    background-color: rgb(212, 208, 181);
+    border-radius: 10px;
+}
+.name h1{
+    font-weight: normal;
+}
+.my-box{
+    width:1250px;
+ 
+    background-color: antiquewhite;
+    display:flex;
+  flex-direction: column;
+   position:relative;
+}
+.profeil{
+    position:absolute;
+    top:80px;
+    left:760px;
+}
+  .inbox{
+    width:50%
+    
+  
+}
+.紹介{
+   
+    position:absolute;
+    top:180px;
+    left:760px;
+  
+}

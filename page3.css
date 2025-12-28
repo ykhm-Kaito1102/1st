@@ -1,0 +1,36 @@
+.photo{
+    float:left;
+    width:850px;
+    flex-direction:column;
+}
+.rotate90 {
+  display: inline-block;
+  width: 400px; /* 好きなサイズに調整 */
+  margin-right: 10px; /* 画像同士の間隔 */
+  vertical-align: middle;
+  border:2px solid rgb(77, 61, 61);
+}
+.photo-wrapper{
+  flex-direction:column;
+}
+.tittle{
+  color:red;
+  display:inline-block;
+  background-color: aquamarine;
+}
+.rotate89{
+  position:absolute;
+  top:10px;
+  left:650px;
+  width:400px;
+  height:400px;
+  flex:auto;
+   border:2px solid rgb(77, 61, 61);
+}
+.photo2{
+   border:2px solid rgb(77, 61, 61);
+   width:850px;
+}
+.container p{
+  border-bottom:5px solid red;;
+}

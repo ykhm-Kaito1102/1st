@@ -1,0 +1,23 @@
+.container{
+    width:600px;
+    height:600px;
+  
+    
+}
+.gallery{
+    position:relative;   
+}
+h1{
+    position:absolute;
+    top:100PX;
+    left: 350px;
+    font-size:100px;
+    color:rgb(209, 218, 127);
+    background-color:rgba(32, 29, 73, 0.276);
+    border-radius: 10px;
+    font-family: 'Noto Sans JP', sans-serif;
+}
+h2{
+    border-bottom:5px solid red;
+}
+
