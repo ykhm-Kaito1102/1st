@@ -122,25 +122,33 @@ top:7600px;
     font-size: 14px;
       width:90%;
   }
-  .container {
-    padding: 10px;
-       max-width: 100%;
-  }
-    .img {
-  max-width: 100%;  /* 画面幅に収まる */
-  height: auto;     /* 縦横比を維持 */
-  display: block;
-  margin: 10px auto;
-  border-radius: 10px;
+ .container {
+  width: 90%;
+  max-width: 430px; /* iPhone14 Pro Max 用 */
+  margin: 0 auto;
+  text-align: center;
+  box-sizing: border-box;
+}
+    .kaito, .ami, .top-wrapper a {
+  position: absolute;
+  font-size: 14px;  /* 小さめに調整 */
+}
+.kaito { top: 300px; left: 250px; }
+.ami { top: 250px; left: 120px; }
+.top-wrapper a { top: 100px; left: 150px; }
+    
+    .taravel, .last-photo {
+  width: 100%;
+  height: auto;
+  object-fit: cover;
+}
+    footer {
+  position: relative; /* 画面下に自然に配置 */
+  padding: 20px;
+  text-align: center;
+}
 }
 
-    .top-wrapper{
- height:200px;
-    background-image:url(かわうそ.jpg); 
-    background-size:cover;
-    position:relative;
-}
-}
 
 
 
