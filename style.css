@@ -175,17 +175,24 @@ color:rgb(134, 133, 130);
 }
     footer{
 position:absolute;
-top:200px;
+top:2000px;
 }
     footer p{
 position: absolute;
 top:20px;
 left:10px;
+font-size:4px;
 font-weight:normal;
 color:rgb(34, 53, 225);
 
 }
+    .top-wrapper{
+ height:200px;
+    background-image:url(かわうそ.jpg); 
+    background-size:cover;
+    position:relative;
 }
+
 
 
 
