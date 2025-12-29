@@ -147,7 +147,14 @@ top:7600px;
   padding: 20px;
   text-align: center;
 }
+    .top-wrapper{
+ height:400px;
+    background-image:url(かわうそ.jpg); 
+    background-size:cover;
+    position:relative;
 }
+}
+
 
 
 
