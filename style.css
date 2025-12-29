@@ -149,7 +149,9 @@ top:7600px;
 }
     .top-wrapper{
  height:400px;
+        width:400px;
     background-image:url(かわうそ.jpg); 
+        max-width:100%;
     background-size:cover;
     position:relative;
 }
@@ -177,6 +179,7 @@ color:rgb(34, 53, 225);
 
 }
 }
+
 
 
 
